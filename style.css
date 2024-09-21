@@ -1,0 +1,28 @@
+body {
+    font-family: 'humane', 'sans-serif';
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+
+    div.c1 {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        div.title {
+            font-size: 14em;
+            font-weight: 300;
+            letter-spacing: 13px;
+        }
+
+        div.desc {
+            font-size: 4em;
+            color: rgb(63 63 63);
+            letter-spacing: .1em;
+            font-weight: 300;
+        }
+    }
+}
