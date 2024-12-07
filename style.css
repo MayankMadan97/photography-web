@@ -1,7 +1,34 @@
+:root {
+    --color: #262626;
+    --bg-color: hsla(48, 20%, 95.1%, 1);
+    --font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
 body {
-    font-family: 'humane', 'sans-serif';
-    background-color: hsla(48,20%,95.1%,1);
-    color: hsla(0,0%,100%,1);
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--color);
     height: 100vh;
     width: 100vw;
+    margin: 0;
+}
+
+.menu-items {
+    font-family: var(--font-monospace);
+    display: flex; /* Assuming you want to use flexbox for gap */
+    gap: 2em;
+}
+
+.crsr-pointer {
+    cursor: pointer;
+}
+
+.banner {
+    height: 75vh;
+    overflow: hidden;
+    width: 68vw;
+}
+
+.carousel-item img {
+    /* object-fit: cover; */
 }
